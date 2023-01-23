@@ -1,0 +1,155 @@
+
+  h1 {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 5px 5px 10px black;
+  }
+  
+body{
+    background: linear-gradient(100deg, rgba(10,150,250,1) 50%, rgba(15,100,200,1) 50%, rgba(20,50,500,1) 50%) lightsteelblue;
+
+  }
+
+  
+  h6{
+    text-align: center;
+      text-decoration: overline;
+  }
+
+  p {
+font-family: Arial;
+font-size: 20px;
+    }
+
+  
+
+/* Flex Container */
+  .flex-container {
+  display: flex;
+  background-color: dodgerblue;
+  flex-direction: column;
+  justify-content: center, flex-start; flex-end;
+  flex-wrap: wrap;
+  align-items: center; stretch;
+}
+
+
+/* Flex Container */
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+   text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+/* Grid Container - 
+The vertical lines of grid items are called columns.
+The horizontal lines of grid items are called rows.
+The spaces between each column/row are called gaps.
+ */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  background-color: #6747;
+  padding: 40px;
+}
+
+/* Grid Container */
+.grid-container > div {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: black;
+  border-radius: 5px;
+        }
+    
+.dot {
+  height: 55px;
+  width: 55px;
+  background-color: white;
+  border-radius: 70%;
+  display: inline-block;
+}
+
+    input[type=submit] {
+    padding:5px 15px; 
+        background:#157; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    text-align: center;
+}
+
+    input[type=button] {
+    padding:5px 15px; 
+        background:#157; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    text-align: center;
+}
+
+
+  input[type=file] {
+    padding:5px 15px; 
+    background:#157; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    text-align: center;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:5px solid #ccc; 
+    border-radius: 10px;
+}
+
+
+/* Butto Styling */
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius: 25px; /* Round Corners */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+#myDiv {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  animation-name: example;
+  animation-duration: 10s;
+  transform: rotateZ(180deg);
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+  
+  
+image-rendering: pixelated;
+
+

@@ -1,0 +1,83 @@
+<html>
+<head>
+
+<title>Galaxy of Skills Schedule</title>
+
+</head>
+
+<h1>Galaxy of Skills Schedule Schedule</h1>
+
+
+<h6>This is our community</h6><br/>
+
+<h3 style="color:rebeccapurple;">Select day and a class to enroll in.</h3>
+
+<link rel="stylesheet" href="GalaxyofSkills.css"></link>
+
+<body>
+
+	<p>
+		Select the day of the week. 
+	
+	<select id="Weekdays">
+    <option value="Sunday">Sunday</option>
+    <option value="Monday">Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thusday</option>
+    <option value="Friday">Friday</option>
+	</p>
+
+	<br />
+
+	<p>
+<input type="radio" id="class" typed="checked">
+      		<label for="class">Spoken English</label>
+      		<br>
+
+<input type="radio" id="class" typed="checked">
+      		<label for="class">Public Speaking</label>
+		<br>
+
+<input type="radio" id="class" typed="checked">
+      		<label for="class">Java</label>
+		<br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Web Development</label>
+		<br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">SQL and Database Management</label>
+		<br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Book Reading</label>
+           <br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Python</label>
+           <br>
+
+<input type="radio" id="class" typed="checked">
+           <label for="class">Literature</label>
+           <br>
+       </p>
+
+
+
+<script>
+
+<br />
+
+<form name="myForm" action="/GalaxyofSkillsSchedule.php" onsubmit="return validateForm()" method="post">
+	Name: <input type="text" name="name" required>
+	Email: <input type="text" name="email" required>
+      	Birthdate: <input type="date" name="date" required>
+   <input type="submit" value="Submit">
+</form>
+</script>
+
+</body>
+
+</html>
